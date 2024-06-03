@@ -15,6 +15,8 @@ class SearchView extends StatelessWidget {
       body: Stack(
         children: [
           Image.asset(
+            width: double.infinity,
+            height: double.infinity,
             ImageAsset.map,
             fit: BoxFit.fill,
           ),
