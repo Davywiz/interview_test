@@ -28,6 +28,8 @@ class SplashScreen extends HookWidget {
       body: Stack(
         children: [
           Image.asset(
+            width: double.infinity,
+            height: double.infinity,
             ImageAsset.splashImage,
             fit: BoxFit.fill,
           )
